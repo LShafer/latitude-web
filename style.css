@@ -1,0 +1,116 @@
+
+/* Body */
+    body{
+        background-color: #eeeeee;
+    }
+    .title{
+        color: #20aab8;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: bold;
+        padding-top: 25px;
+    }
+
+/* Navbar */
+    .navbar{
+        background-color: white;
+        font-size: 16px;
+        height: 58px;
+    }
+    #navbarNavDropdown{
+        background-color: white;
+    }
+    .navigation .navbar-brand{
+        color: white;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: 25px;
+        padding-right: 5px;
+        padding-left: 5px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        background-color: #20aab8;
+        font-weight: bold;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+/* Images */
+    .visualization{
+        width: 60% !important;
+        height: 60% !important;
+    }
+
+    .center-block {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+/* Box */
+    .box{
+        background-color: white;
+        margin-top: 50px;
+        margin-bottom: 30px;
+        padding-top: 10px;
+        padding-right: 20px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+    }
+
+    .bigbox{
+        background-color: white;
+        margin-top: 50px;
+        margin-bottom: 30px;
+        margin-left: 15px;
+        padding-left: 50px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 15px;
+        width: 100%;
+    }
+
+/* Paragraph */
+    p{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+/* Media Queries */
+@media(max-width: 1000px){
+    .navbar-expand-lg{
+    background-color: #20aab8 !important;
+    }
+    .navbar{
+        max-height: none;
+        padding: inherit;
+    }
+    .navbar div{
+        margin: inherit;
+        background-color: white;
+    }
+    .navbar-brand{
+        padding: 10px !important;
+    }
+    button{
+        margin-top: 0px;
+        margin-right: 10px;
+        margin-bottom: 0px;
+        padding: 0px 10px 0px 10px;
+    }
+}
+
+/* Footer */
+    .footer{
+        background-color: slategrey;
+        border-top-style: solid;
+        border-top-width: 10px;
+        border-top-color: #20aab8;
+        color: white;
+        height: 50px;
+        font-family; Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        text-align: center;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        padding-top: 15px;
+        margin-top: 20px;
+    }

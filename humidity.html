@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Weather Visualization Dashboard</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" 
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
+    crossorigin="anonymous">
+
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+    <!-- JS, Popper.js, and jQuery (makes dropdown menus work-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- Official Themes
+    Take Bootstrap 4 to the next level with official premium themes—toolkits built on Bootstrap with new components and plugins, docs, and build tools. -->
+    
+    
+</head>
+    
+<body>
+    <!--Navbar-->
+    <div class="navigation">
+        <nav class="navbar navbar-expand-lg navbar-light"> 
+        <a class="navbar-brand" href="index.html">Latitude</a>
+        <button class="navbar-toggler border border-white" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Plots
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="maxtemp.html">Max Temperature</a>
+                        <a class="dropdown-item" href="humidity.html">Humidity</a>
+                        <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                        <a class="dropdown-item" href="windspeed.html">Wind Speed</a>
+                    </div>    
+                </li> 
+                <li class="nav-item">
+                    <a class="nav-link" href="comparisons.html">Comparisons</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="weatherdata.html">Data</a>
+                </li>
+            </ul>         
+        </div>
+        </nav>
+    </div>
+    
+    
+    <!--Content-->
+    <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-7">
+                    <div class="box">
+                        <h3 class="title">Humidity vs. Latitude</h3>
+                        <hr>
+                        <img src="Humid_Lat.png" class="center-block" alt="Cloudiness vs. Latitude Image">
+                        <br>
+                        <br>
+                        <p>
+                           Humidity appears to have a slight correlation to latitude, as the plot shows that humidity tends to increase as latitude increases north of the equator.
+                           Interestingly, these numbers correspond to summer in the Northern Hemisphere, so further research could evaluate the same data during summer in the Southern Hemisphere to determine if the same correlation exists.
+                        </p> 
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-5">
+                    <div class="box">
+                        <h5 class="title">Visualizations</h5>
+                        <hr>
+                    
+    
+                    <div class="container">
+                        <div class="row" style="margin-bottom: 20px">
+                            <div class="col-6">
+                                <a href="maxtemp.html"><img class="img-thumbnail" src="Temp_Lat.png"></a>
+                            </div>
+                            <div class="col-6">
+                                <a href="humidity.html"><img class="img-thumbnail" src="Humid_Lat.png"></a>
+                            </div>
+                        </div>
+                        <div class="row" style="margin-bottom: 10px">
+                            <div class="col-6">
+                                <a href="cloudiness.html"><img class="img-thumbnail" src="Cloud_Lat.png"></a>
+                            </div>
+                            <div class="col-6">
+                                <a href="windspeed.html"><img class="img-thumbnail" src="Wind_Lat.png"></a>
+                            </div>
+    
+                        </div>
+    
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    
+    <!--Footer-->
+    <footer>
+        <div class="footer">&copy Copyright L.Shafer 2019</div>
+    </footer>
+
+</body>
+
+</html>
