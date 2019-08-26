@@ -1,6 +1,6 @@
 # latitude-web
 
-# Unit 11 | Assignment - Web Visualization Dashboard (Latitude)
+## Unit 11 | Assignment - Web Visualization Dashboard (Latitude)
 
 https://lshafer.github.io/latitude-web/index.html
 
